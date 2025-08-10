@@ -1,17 +1,28 @@
-<<<<<<< HEAD
-# React + Vite
+# 🎬 Cinema – Web Đặt Vé Xem Phim
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Một ứng dụng web đặt vé xem phim được phát triển bằng **ReactJS** và **Vite**, mang đến trải nghiệm nhanh chóng, mượt mà và hiện đại.  
+Người dùng có thể xem trailer, chọn suất chiếu, đặt vé, lưu vé yêu thích và thanh toán trực tuyến.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Công nghệ sử dụng
+- ⚡ **Vite** – Bundler siêu nhanh cho React.
+- ⚛ **ReactJS** – Thư viện UI hiện đại.
+- 🎨 **Tailwind CSS** – Thiết kế responsive nhanh gọn.
+- 🎥 **YouTube Data API + react-youtube** – Xem trailer phim chất lượng cao.
+- 🛠 **React Router** – Điều hướng SPA.
+- 🔥 **Lucide-react** – Icon đẹp và nhẹ.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Cinema
-ReactJS-Project-Web Đặt Vé Xem Phim
->>>>>>> bc48e5cbf11d8c6586e5aeb9e051e7b5adb4e9f7
+## ✨ Tính năng chính
+- 📽 **Xem trailer** với giao diện tùy chỉnh.
+- 🎟 **Đặt vé xem phim** nhanh chóng.
+- 🗓 **Chọn suất chiếu** và ghế ngồi.
+- ❤️ **Lưu phim yêu thích**.
+- 📱 **Responsive** trên mọi thiết bị.
+- 🎨 Giao diện hiện đại, hiệu ứng mượt mà.
+
+---
+
+## 📂 Cấu trúc thư mục
