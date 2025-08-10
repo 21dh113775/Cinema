@@ -15,6 +15,7 @@ import {
   X,
   ChevronDown
 } from 'lucide-react';
+import BlurCircle from '../components/BlurCircle';
 
 const Movies = () => {
   const [movies, setMovies] = useState([]);
@@ -105,9 +106,8 @@ const Movies = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 via-black to-gray-900 pt-24 pb-12">
-      {/* Background Effects */}
-      <div className="absolute top-20 left-10 w-72 h-72 bg-red-500/10 rounded-full blur-3xl"></div>
-      <div className="absolute top-40 right-10 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
+      <BlurCircle top='150px' left='0px'/>
+      <BlurCircle bottom='50px' right='50px'/>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
