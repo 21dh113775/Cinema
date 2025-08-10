@@ -23,6 +23,4 @@ Người dùng có thể xem trailer, chọn suất chiếu, đặt vé, lưu v�
 - 📱 **Responsive** trên mọi thiết bị.
 - 🎨 Giao diện hiện đại, hiệu ứng mượt mà.
 
----
 
-## 📂 Cấu trúc thư mục
