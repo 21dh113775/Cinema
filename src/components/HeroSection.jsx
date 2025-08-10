@@ -6,30 +6,25 @@ const HeroSection = () => {
   return (
     <div className='relative flex flex-col items-start justify-center gap-6 px-6 md:px-16 lg:px-36 bg-[url("/backgroundImage.png")] bg-cover bg-center h-screen pt-20'>
         
-        {/* Overlay để text dễ đọc */}
         <div className='absolute inset-0 bg-gradient-to-r from-black/70 to-black/30'></div>
         
         <div className='relative z-10 max-w-4xl'>
           
-          {/* 🇻🇳 Vietnamese Studio Logo */}
           <div className='flex items-center gap-3 mb-4'>
             <img src={assets.marvelLogo} alt='Studio Logo' className="h-8 md:h-10"/>
-            <span className='text-orange-400 font-medium text-sm tracking-wider'>PHIM CHIẾU RẠP</span> {/* 📝 NOTE: Thêm label Việt */}
+            <span className='text-orange-400 font-medium text-sm tracking-wider'>PHIM CHIẾU RẠP</span>
           </div>
       
-          {/* 🇻🇳 Vietnamese Title */}
           <h1 className='text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-4 leading-tight'>
             Vệ Binh <br/> 
-            <span className='text-transparent bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text'>Dải Ngân Hà</span> {/* 📝 NOTE: Gradient cho từ "Dải Ngân Hà" */}
+            <span className='text-transparent bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text'>Dải Ngân Hà</span>
           </h1>
 
-          {/* 🇻🇳 Vietnamese Subtitle */}
           <p className='text-gray-300 text-lg md:text-xl mb-6 max-w-2xl leading-relaxed'>
             Cuộc phiêu lưu vũ trụ đầy kịch tính với những người bạn bất đồng, 
             cùng nhau bảo vệ dải ngân hà khỏi những thế lực hắc ám.
           </p>
 
-          {/* 🇻🇳 Vietnamese Movie Info */}
           <div className='flex flex-wrap items-center gap-4 text-gray-200 text-sm md:text-base mb-8'>
               
               {/* Thể loại */}
@@ -46,13 +41,13 @@ const HeroSection = () => {
               {/* Thời lượng */}
               <div className='flex items-center gap-2 bg-white/10 px-3 py-2 rounded-full backdrop-blur'>
                   <Clock className='w-4 h-4 text-green-400' />
-                  <span>2 giờ 9 phút</span> {/* 📝 NOTE: "2 giờ 9 phút" thay vì "2h 9m" */}
+                  <span>2 giờ 9 phút</span>
               </div>
 
               {/* Rating Việt Nam */}
               <div className='flex items-center gap-2 bg-white/10 px-3 py-2 rounded-full backdrop-blur'>
                   <Star className='w-4 h-4 text-yellow-400 fill-current' />
-                  <span>T13 - Phù hợp từ 13 tuổi</span> {/* 📝 NOTE: Rating theo chuẩn Việt Nam */}
+                  <span>T13 - Phù hợp từ 13 tuổi</span> 
               </div>
           </div>
 
@@ -68,7 +63,7 @@ const HeroSection = () => {
               {/* Nút đặt vé */}
               <button className='flex items-center gap-3 bg-gradient-to-r from-orange-500 to-yellow-500 hover:from-orange-600 hover:to-yellow-600 text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-orange-500/25'>
                 <Calendar className='w-5 h-5' />
-                <span>Đặt Vé Ngay</span> {/* 📝 NOTE: Call-to-action Việt Nam */}
+                <span>Đặt Vé Ngay</span> 
               </button>
 
               {/* Nút thêm vào danh sách yêu thích */}
