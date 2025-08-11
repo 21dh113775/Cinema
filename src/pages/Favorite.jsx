@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { dummyShowsData } from '../assets/assets';
 import MovieCard from '../components/MovieCard';
 import { Search, Grid3X3, List, Star, Loader2, X } from 'lucide-react';
 import BlurCircle from '../components/BlurCircle';
@@ -13,16 +12,11 @@ const Favorites = () => {
   const [viewMode, setViewMode] = useState('grid');
   const [filteredFavorites, setFilteredFavorites] = useState([]);
 
-  // Mock loading effect and initialize favorites (simulated from dummyShowsData)
+  // Load favorites from localStorage
   useEffect(() => {
-    const timer = setTimeout(() => {
-      // Simulate favorites (e.g., first 3 movies for demo; replace with actual storage logic)
-      const initialFavorites = dummyShowsData.slice(0, 3).map(movie => ({ ...movie, isFavorite: true }));
-      setFavorites(initialFavorites);
-      setLoading(false);
-    }, 800);
-
-    return () => clearTimeout(timer);
+    const storedFavorites = JSON.parse(localStorage.getItem('favorites')) || [];
+    setFavorites(storedFavorites);
+    setLoading(false);
   }, []);
 
   // Filter favorites based on search query
@@ -38,7 +32,9 @@ const Favorites = () => {
 
   // Handle remove from favorites
   const handleRemoveFavorite = (movieId) => {
-    setFavorites(favorites.filter(movie => movie._id !== movieId));
+    const newFavorites = favorites.filter(movie => movie._id !== movieId);
+    setFavorites(newFavorites);
+    localStorage.setItem('favorites', JSON.stringify(newFavorites));
   };
 
   if (loading) {
@@ -183,4 +179,4 @@ const Favorites = () => {
   );
 };
 
-export default Favorites;
+export default Favorites; 
