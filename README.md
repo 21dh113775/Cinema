@@ -1,54 +1,166 @@
-<h1 align="center">🎬 Cinema – Web Đặt Vé Xem Phim</h1>
+🎬 Cinema – Ứng Dụng Đặt Vé Xem Phim
 
-<p align="center">
-  <img src="https://img.shields.io/badge/ReactJS-18.0.0-blue?style=for-the-badge&logo=react" />
-  <img src="https://img.shields.io/badge/Vite-5.x-ff69b4?style=for-the-badge&logo=vite" />
-  <img src="https://img.shields.io/badge/TailwindCSS-3.x-06b6d4?style=for-the-badge&logo=tailwindcss" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
-</p>
+Cinema là một ứng dụng web hiện đại, được xây dựng để mang lại trải nghiệm đặt vé xem phim trực tuyến nhanh chóng, tiện lợi và thân thiện với người dùng. Với giao diện mượt mà, thiết kế responsive và các tính năng thông minh, Cinema giúp bạn dễ dàng khám phá phim, xem trailer, chọn suất chiếu và đặt vé chỉ trong vài bước.
 
-<p align="center">
-  Một ứng dụng web đặt vé xem phim với giao diện hiện đại, mượt mà và trải nghiệm tốt trên mọi thiết bị.
-</p>
+🔗 Link dự án: https://github.com/21dh113775/Cinema.git
+🔗 Link triển khai: cinema-jade-xi.vercel.app
 
----
 
-## 📸 Preview
 
-![Preview](./preview.png)
+🚀 Công nghệ sử dụng
 
----
+Cinema được xây dựng với các công nghệ tiên tiến, đảm bảo hiệu suất cao và trải nghiệm người dùng tối ưu:
 
-## 📜 Mục lục
-1. [🚀 Công nghệ sử dụng](#-công-nghệ-sử-dụng)
-2. [✨ Tính năng chính](#-tính-năng-chính)
-3. [📂 Cấu trúc thư mục](#-cấu-trúc-thư-mục)
-4. [⚙️ Cài đặt & Chạy dự án](#️-cài-đặt--chạy-dự-án)
-5. [🌐 Link Demo](#-link-demo)
-6. [📚 Nguồn học tập](#-nguồn-học-tập)
 
----
 
-## 🚀 Công nghệ sử dụng
-- ⚡ **Vite** – Bundler siêu nhanh cho React.
-- ⚛ **ReactJS** – Thư viện UI hiện đại.
-- 🎨 **Tailwind CSS** – Thiết kế responsive nhanh gọn.
-- 🎥 **YouTube Data API + react-youtube** – Xem trailer chất lượng cao.
-- 🛠 **React Router** – Điều hướng SPA.
-- 🔥 **Lucide-react** – Bộ icon đẹp và nhẹ.
 
----
 
-## ✨ Tính năng chính
-- 📽 **Xem trailer** phim ngay trên web.
-- 🎟 **Đặt vé** nhanh chóng, chọn ghế ngồi trực quan.
-- 🗓 **Chọn suất chiếu** theo ngày/giờ.
-- ❤️ **Lưu phim yêu thích**.
-- 📱 **Responsive** trên mọi thiết bị.
-- 🎨 Giao diện hiện đại + hiệu ứng mượt mà.
+⚡ Vite: Công cụ build siêu nhanh, tối ưu hóa thời gian phát triển và triển khai.
 
-----
- Link Demo
-GitHub Repo: Cinema
 
-Deploy: cinema-jade-xi.vercel.app
+
+⚛ ReactJS: Thư viện giao diện người dùng mạnh mẽ, hỗ trợ xây dựng SPA hiệu quả.
+
+
+
+🎨 Tailwind CSS: Framework CSS tiện lợi, giúp tạo giao diện responsive và hiện đại.
+
+
+
+🎥 YouTube Data API + react-youtube: Tích hợp trailer phim chất lượng cao với giao diện tùy chỉnh.
+
+
+
+🛠 React Router: Quản lý điều hướng mượt mà trong ứng dụng đơn trang (SPA).
+
+
+
+🔥 Lucide-react: Thư viện biểu tượng nhẹ, đẹp mắt và dễ tích hợp.
+
+
+
+✨ Tính năng nổi bật
+
+Cinema cung cấp các tính năng giúp nâng cao trải nghiệm người dùng:
+
+
+
+
+
+📽 Xem trailer phim: Tích hợp trailer từ YouTube với giao diện trực quan, dễ sử dụng.
+
+
+
+🎟 Đặt vé nhanh chóng: Chọn phim, suất chiếu và ghế ngồi chỉ trong vài cú nhấp chuột.
+
+
+
+🗓 Lịch chiếu linh hoạt: Hiển thị lịch chiếu rõ ràng, hỗ trợ chọn thời gian phù hợp.
+
+
+
+❤️ Lưu phim yêu thích: Lưu trữ danh sách phim bạn muốn xem để tiện theo dõi.
+
+
+
+📱 Thiết kế responsive: Hoạt động mượt mà trên mọi thiết bị, từ điện thoại đến máy tính.
+
+
+
+🎨 Giao diện hiện đại: Hiệu ứng chuyển cảnh mượt mà, thiết kế tối ưu UX/UI.
+
+
+
+🛠 Cài đặt và chạy dự án
+
+Yêu cầu
+
+
+
+
+
+Node.js: Phiên bản 16 trở lên.
+
+
+
+npm hoặc yarn: Công cụ quản lý gói.
+
+Hướng dẫn cài đặt
+
+
+
+
+
+Clone repository:
+
+git clone https://github.com/21dh113775/Cinema.git
+cd Cinema
+
+
+
+Cài đặt dependencies:
+
+npm install
+
+hoặc
+
+yarn install
+
+
+
+Chạy dự án ở chế độ phát triển:
+
+npm run dev
+
+hoặc
+
+yarn dev
+
+
+
+Mở trình duyệt và truy cập: http://localhost:5173.
+
+
+
+📚 Nguồn tham khảo
+
+Dự án được phát triển dựa trên hướng dẫn từ video YouTube sau:
+🔗 Build a Movie Ticket Booking App with ReactJS
+
+
+
+🤝 Đóng góp
+
+Mọi ý kiến đóng góp hoặc báo lỗi đều được hoan nghênh! Vui lòng làm theo các bước sau:
+
+
+
+
+
+Fork dự án.
+
+
+
+Tạo nhánh mới (git checkout -b feature/ten-tinh-nang).
+
+
+
+Commit các thay đổi (git commit -m 'Thêm tính năng XYZ').
+
+
+
+Push lên nhánh (git push origin feature/ten-tinh-nang).
+
+
+
+Tạo Pull Request.
+
+
+
+📜 Giấy phép
+
+Dự án này được cấp phép theo MIT License.
+
+
+
+Cinema – Nơi trải nghiệm đặt vé xem phim trở nên dễ dàng và thú vị hơn bao giờ hết! 🎥
